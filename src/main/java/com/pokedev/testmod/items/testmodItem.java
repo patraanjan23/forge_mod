@@ -2,6 +2,8 @@ package com.pokedev.testmod.items;
 
 
 import com.pokedev.testmod.help.Reference;
+import com.pokedev.testmod.tabs.ModTabs;
+
 import cpw.mods.fml.relauncher.Side;
 import cpw.mods.fml.relauncher.SideOnly;
 import net.minecraft.client.renderer.texture.IIconRegister;
@@ -16,7 +18,7 @@ public class testmodItem extends Item
 	public testmodItem()
 	{
 		super();
-		setCreativeTab(CreativeTabs.tabMisc);
+		setCreativeTab(ModTabs.tabTestmod);
 		
 	}
 

@@ -10,10 +10,11 @@ public class ModBlocks
 {
 
 public static Block testBlock = new BlocktestBlock();
+
 	
 	public static void init()
 	{
-		RegisterHelper.registerBlock(testBlock);		
+		RegisterHelper.registerBlock(testBlock);			
 	}
 	
 }

@@ -1,2 +1,3 @@
-item.testIngot.name = Ningot
-tile.testBlock.name = Preampharous Ore
+item.testIngot.name=Ningot
+tile.testBlock.name=Preampharous Ore
+itemGroup.tabTestmod=TestMod Tab
