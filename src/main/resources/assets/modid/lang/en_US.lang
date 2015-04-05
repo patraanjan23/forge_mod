@@ -15,3 +15,11 @@ item.cobalt_sword.name=Cobalt Sword
 item.cobalt_hoe.name=Cobalt Hoe
 item.cobalt_shovel.name=Cobalt Shovel
 item.cobalt_axe.name=Cobalt Axe
+
+item.dustWood.name=Wood Dust
+item.dustDirt.name=Dirt Dust
+item.dustStone.name=Stone Dust
+item.dustIron.name=Iron Dust
+item.dustGold.name=Gold Dust
+item.dustDiamond.name=Diamond Dust
+item.dustObsidian.name=Obsidian Dust
