@@ -6,18 +6,23 @@ import net.minecraft.item.Item;
 
 public class ModItems 
 {
-	public static Item testIngot = new testmodItem().setUnlocalizedName("testIngot");
-	public static Item testItem2 = new testmodItem().setUnlocalizedName("testItem2");
-	public static Item testItem3 = new testmodItem().setUnlocalizedName("testItem3");
-	public static Item testItem4 = new testmodItem().setUnlocalizedName("testItem4");
-	public static Item testItem5 = new testmodItem().setUnlocalizedName("testItem5");
+	public static Item ingotTest = new testmodItem().setUnlocalizedName("ingotTest");
+	public static Item ingotCobalt = new testmodItem().setUnlocalizedName("ingotCobalt");
+	
+	public static Item dustCobalt = new testmodItem().setUnlocalizedName("dustCobalt");	
+	public static Item dustTest = new testmodItem().setUnlocalizedName("dustTest");
+	public static Item dustIron = new testmodItem().setUnlocalizedName("dustIron");
+	
+		
 	public static void init()
 	{
-		RegisterHelper.registerItem(testIngot);		
-		RegisterHelper.registerItem(testItem2);
-		RegisterHelper.registerItem(testItem3);
-		RegisterHelper.registerItem(testItem4);
-		RegisterHelper.registerItem(testItem5);
+		RegisterHelper.registerItem(ingotTest);
+		RegisterHelper.registerItem(ingotCobalt);
+		
+		RegisterHelper.registerItem(dustCobalt);
+		RegisterHelper.registerItem(dustTest);
+		RegisterHelper.registerItem(dustIron);
+		
 	}
 	
 }

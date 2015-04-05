@@ -22,7 +22,7 @@ public class TestmodTab extends CreativeTabs
 	{
 		if (this.name == "tabTestmod")
 		{
-			return ModItems.testIngot;
+			return ModItems.dustCobalt;
 		}
 		return null;
 	}
