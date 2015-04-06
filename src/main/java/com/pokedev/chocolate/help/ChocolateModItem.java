@@ -1,4 +1,4 @@
-package com.pokedev.chocolate.dusts;
+package com.pokedev.chocolate.help;
 
 import com.pokedev.chocolate.Chocolate;
 
@@ -8,10 +8,10 @@ import net.minecraft.client.renderer.texture.IIconRegister;
 import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 
-public class ChocolateModDust extends Item
+public class ChocolateModItem extends Item
 
 {
-	public ChocolateModDust()
+	public ChocolateModItem()
 	{
 		super();
 		setCreativeTab(CreativeTabs.tabMisc); // STUB for adding Custom Tab Name Later

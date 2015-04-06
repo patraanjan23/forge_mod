@@ -3,6 +3,7 @@ output
 .gradle
 .idea
 *.iml
+Metallurgy4
 
 Mekanism*.jar
 MDK.zip

@@ -1,6 +1,7 @@
 package com.pokedev.chocolate;
 
-import com.pokedev.chocolate.init.ModDusts;
+import com.pokedev.chocolate.items.ModDusts;
+import com.pokedev.chocolate.items.ModIngots;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
@@ -10,7 +11,7 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 
 
 @Mod(name = Chocolate.MODNAME, modid = Chocolate.MODID, version = Chocolate.VERSION)	//Tell forge "Oh hey, there's a new mod here to load."
-public class Chocolate 
+public class Chocolate
 {
 	public static final String MODNAME = "Chocolate";
 	public static final String MODID = "Chocolate";
@@ -26,6 +27,7 @@ public class Chocolate
 	public void preInit(FMLPreInitializationEvent event)
 	{
 		ModDusts.init();
+		ModIngots.init();
 	}
 	//“init” registers recipes for example, as well as a few other things.
 	@Mod.EventHandler
