@@ -2,6 +2,7 @@ package com.pokedev.chocolate;
 
 import com.pokedev.chocolate.items.ModDusts;
 import com.pokedev.chocolate.items.ModIngots;
+import com.pokedev.chocolate.items.ModTools;
 
 import cpw.mods.fml.common.Mod;
 import cpw.mods.fml.common.Mod.Instance;
@@ -28,6 +29,7 @@ public class Chocolate
 	{
 		ModDusts.init();
 		ModIngots.init();
+		ModTools.init();
 	}
 	//“init” registers recipes for example, as well as a few other things.
 	@Mod.EventHandler
